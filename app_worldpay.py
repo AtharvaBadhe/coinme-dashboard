@@ -9,7 +9,7 @@ from requests_oauthlib import OAuth2Session
 from datetime import datetime
 
 # Load Google OAuth credentials from downloaded file
-with open("client_secret_326238244698-tscgcrvvb8021lj1qp67v25t8s8il146.apps.googleusercontent.com.json") as f:
+with open("client_secret_326238244698-dgcnsevo9osmlku5o5sek96r5n5c47no.apps.googleusercontent.com.json") as f:
     config = json.load(f)["web"]
 
 client_id = config["client_id"]
